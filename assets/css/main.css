@@ -1,0 +1,147 @@
+body{
+    background-color: #EBEDFD;
+}
+.container{
+    width: 514px;
+    height: 857px;
+    margin: 10px auto;
+}
+.box{
+    background-color: #fff;
+    width: 444px;
+    height: 749px;
+    border-radius: 24px;
+    float: left;
+    color: #171A3C;
+}
+/* HEADER */
+.header{
+    width: 372px;
+    height: 44px;
+    margin:52px 36px;
+    text-align: center;
+}
+img{
+    width: 44px;
+    height: 44px;
+}
+.left-arrow,.bell,.title{
+    display: inline-block;
+}
+.title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    width: 128px;
+    padding:8px 70px;
+    
+}
+.left-arrow{
+    float: left;
+}
+.bell{
+    float: right;
+}
+
+/* MAIN */
+
+.main{
+    margin:0px 109px ;
+}
+.timer{
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 81px;
+    margin: 0px 12px;
+}
+.content{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0px 16px;
+}
+.min-sec{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 7px 67px;
+}
+.main button{
+    color: #fff;
+    background-color: #171A3C;
+    border-radius: 41px;
+    padding: 24px 32px;
+    margin: 16px 47px;
+    cursor: pointer;
+}
+
+/* TABLE */
+.table{
+    width: 415px;
+    margin: 40px 15px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.table p{
+    display: inline-block;
+}
+.table-right{
+    float: right;
+}
+.table-left{
+    float: left;
+}
+/* TABLE HEADER */
+.table-header{
+    opacity: 50%;
+    font-weight: 500;
+    margin: 0px 20px;
+    padding: 8px 0px;
+}
+.table-header-center{
+    margin: 0px 75px;
+}
+/* TABLE DATAS */
+.table-datas{
+    font-weight: 400;
+}
+.table-data{
+    padding: 13px 0px;
+    border-radius: 8px;
+}
+.table-data .table-right{
+    margin-right: 15px;
+}
+.table-data .table-left{
+    margin-left: 35px;
+}
+.table-data-center{
+    margin-left: 90px;
+}
+.table-data-center-last{
+    margin-left:82px
+}
+.data-color{
+    background-color: #EBEDFD;
+}
+/* .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+.color-box{
+    background-color: #171A3C;
+    float: right;
+}
+.color-box-right{
+    width: 70px;
+    height: 749px;
+    margin-top: 90px;
+    border-top-right-radius: 43px;
+    border-bottom-right-radius: 43px;
+}
+.color-box-bottom{
+    width: 326px;
+    height:90px ;
+    border-bottom-left-radius: 43px;
+}
